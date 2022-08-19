@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOD Search</title>
+
+    <link rel="stylesheet" href="style.css">
+  
+
+</head>
+<body>
+    <main>
+        <h1>APOD Search</h1>
+        <div>
+            <form action="">
+                <label for="date">Enter a date</label>
+                <input type="date" name="date" id="date">
+                <button id="getPic">Get Picture</button>
+            </form>
+            <hr>
+            <div id="chosenDate">
+                <h3 id="apiTitle"></h3>
+                <h4 id="apiDate"></h4>
+                <h4 id="addFav">Add to Favorites</h4>
+                <img src="" alt="" id="apiPic">
+                <p id="apiAbout"></p>
+            </div>
+            <hr>
+            <h2>Favorites</h2>
+            <div id="favourites">
+            </div>
+        </div>
+    </main>
+    <div id="fullPic">
+        <img src="" alt="" id="apiFullSize">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
